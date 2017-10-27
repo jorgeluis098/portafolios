@@ -1,0 +1,51 @@
+<!--principal--> 
+<!DOCTYPE html> <!--Doctype le indica al navegador nuestra version de html--> <!--asi se comenta--> <!--asi se comenta--> 
+<html><!-- --> 
+
+	<head>
+	<title>portafolio</title>
+     <meta charset="utf-8"> <!--sirve para utilizar los idiomas--> 
+	<link rel="stylesheet" href="css/normalize.css"> <!--normalize sirve para hacer compatible la pagina con otros navegadores-->
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"> <!-- es nuestra fuente -->
+	<link rel="stylesheet" href="css/principal_style.css"> <!-- da los estilos a la pagina en un doc css -->
+	<!--style para agregar css-->
+	</head> 
+
+	<body>   <!-- --> 
+		<header> <!--parte superior de la pagina web--> 
+		<a href="index.html" id="logo"> <!--sirve para crear un link-->
+			<h1>Jorge Ramos</h1>
+			<h2>web Delevoper</h2>
+		</a>
+		<nav> <!--crea una barra de navegacion-->
+			<ul> <!--asi se crean las listas--> 
+				<li> <a href="index.html" class="selected"> portafolio</a> </li><!--elementos de la lista, class es como el id pero para varios elem.--> 
+				<li> <a href="acerca.html"> Acerca de</a>  </li>
+				<li> <a href="contacto.html"> Contacto</a> </li>
+
+			</ul>
+		</nav>
+		</header>
+		<div id="wrapper"> <!--div es un bloque de codigo e id es como un link wrapper puede ser cualquier otra palabra-->
+			<section> <!--representa la seccion principal de la pagina--> 
+				<ul id="gallery">
+					<li>
+						<a href="img/jorge.jpg"> <!--para que nos muestre la imagen grandota cuando le damos clik--> 
+						<img src="img/jorge.jpg" alt="proyectos con JavaScript" > <!--asi se insertan las imagenes//no se para que sirve alt--> 
+						<p>proyectos con JavaScript</p>
+						</a>
+					</li>
+				</ul> 
+			</section> 
+		</div>
+		<footer> <!--parte de inferior de la pagina-->
+		<a href=""> <img src="img/twitter-wrap.png" alt="twitter-logo" class="social-icon"> </a>
+		<a href=""><img src="img/facebook-wrap.png" alt="facebook-logo" class="social-icon"> </a>
+		<p>&copy; Jorge Ramos </p>	<!--&copy; sirve para piner la R --> 
+		</footer>
+		
+	</body>
+
+</html>
+
+<!--mientras mas grande h# mas pequeña la letra -->

@@ -1,0 +1,122 @@
+/*generales*/
+a{
+	text-decoration: none; /*elimina la decoraciones del texto a (los links) */
+	color: #000;
+}
+/*section*/
+#wrapper{ /*asi accedemos al id */
+	max-width: 940px;  /*la anchura maxima*/
+	margin: 0 auto;  /* deja un espacio */
+	padding: 0 5%; /* va a hacer que se ajuste automaticamente a la pantalla, el 5% es para que deje 5% de margen*/
+
+}
+header{
+	float:left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo{
+	text-align: center; /* alinea el texto */
+	margin: 0; /* un margen de 0*/
+}
+h1{
+	font-family: 'Libre Baskerville', sans-serif; /*pone el estilo de letra agregado y en caso de que el navegador no pueda hacer la fuente pone sans-serif*/ 
+	margin: 15px 0;
+	font-size: 1.75em; /* em multiplica por 1.75 el tamaño por default */
+ 	font-weight: normal; /*nos asegura que el estilo de la letra sea normal (puede seleccionarse en negritas)*/
+ 	line-height: .9em;/*nos va a decir que tan pegadas estan las lineas unas de las otras */
+}
+h2{
+	font-size: 0.75em;
+	margin: -5 0 0; /*-5 en vez de aumentar reduce (parte superior, derecha e izquierda y parte de abajo)*/
+	font-weight: normal;
+
+}
+img{
+	max-width: 100%; /*sirve para que se adapte al 100% al tamaño donde esten (en el div) (se haga mas chiquita o mas grande dependiendo el caso)*/
+}
+
+/**pagina: portafolio**/
+#gallery{
+	margin: 0;
+	padding: 0;
+	list-style: none; /*quita los puntitos de la lista (no le vamos a dar ningun estilo)*/
+}
+#gallery li{
+	float: left; /*asi podemos tener texto a la izquierda de nuestra imagen (o derecha)*/
+	width: 45%; /*con esto vamos a hacer que divida a la mitad el numero de elementos (por eso 50%)*/
+    margin: 2.5%; /*espacio entre las imagenes 2.5 a la izq y 2.5 a la derecha*/
+    background-color: #f5f5f5; /*cambia el colo del margen de la imagen a gris */
+    color: #bdc3c7;
+} 
+#gallery li a p{ /* accedemos a la etiqueta gallery a los elementos de las listas a los links a los parrafos*/
+	margin: 0;
+	padding: 5%; 	/*le damos un espacio a las letras */
+	font-size: 0.75em;
+	color: #bdc3c7
+
+}
+/** navigation **/
+
+nav{
+	text-align: center; /*alinea el texto al centro*/
+	padding: 10px 0;
+	margin: 20 px 0 0;
+}
+nav ul { /*agregar estilo a la lista */
+	list-style: none; /*quita los puntitos*/
+	margin: 0 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;/*pone los elementos de la lista en forma corrida */
+}
+nav a{
+	font-weight: 800; /*intensidad de la fuente */
+	padding: 15px 10px;
+}
+nav a:hover{
+	background:#80ccff ;
+}
+/**footer**/
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+	clear:both;/*sirve para que no tenga elementos a la izquierda o a la derecha (darle su espacio propio al footer)*/
+}
+.social-icon{
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+/**colores**/
+header{
+	background: #80ccff;
+	border-color: #33adff;
+}
+/*texto del logo*/
+h1, h2{
+	color: #fff;
+}
+nav{
+	background: #33adff;
+}
+nav a, nav a:visited{
+	color:  #fff;
+}
+/*barra nav */
+nav a.selected, a:hover { /*el . es para indicar que hay una clase, hover significa que el mouse esta pasando por encima  */
+ 	color: #008ae6; 
+}
+
+/* cuerpo*/
+body{
+	background: #fff;
+	color: #999;
+	font-family: 'open sans', sans-serif; /*cambia el estilo de letra en todos los elementos del body*/
+}

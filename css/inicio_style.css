@@ -2,6 +2,7 @@ body{
 	background-image: url("../img/fondo_1.jpg");
 	background-size: 100% 100%;
 }
+
 body .container {
 	display: flex;
 	align-items: center;
@@ -9,16 +10,15 @@ body .container {
 	height: 100vh;
 	font-family: 'Libre Baskerville', sans-serif;
 
-
-	
-
 }
+
 a {
 	text-decoration: none;
 	opacity: .3;
 	color: white;
 	font-size: 0.9em;
 }
+
 a:hover{
 	color: #10D6D9;
 }

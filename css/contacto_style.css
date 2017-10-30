@@ -3,6 +3,7 @@ a{
 	text-decoration: none; /*elimina la decoraciones del texto a (los links) */
 	color: #000;
 }
+
 /*section*/
 #wrapper{ /*asi accedemos al id contenedor con lista  */
 	max-width: 940px;  /*la anchura maxima*/
@@ -10,9 +11,9 @@ a{
 	padding: 0 5%; /* va a hacer que se ajuste automaticamente a la pantalla, el 5% es para que deje 5% de margen*/
 
 }
+
 header{
-	float:left;
-	margin: -20px 0 30px 0;
+	margin: 0px 0 30px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
 }
@@ -21,6 +22,7 @@ header{
 	text-align: center; /* alinea el texto */
 	margin: 0; /* un margen de 0*/
 }
+
 h1{
 	font-family: 'Libre Baskerville', sans-serif; /*pone el estilo de letra agregado y en caso de que el navegador no pueda hacer la fuente pone sans-serif*/ 
 	margin: 15px 0;
@@ -28,12 +30,13 @@ h1{
  	font-weight: normal; /*nos asegura que el estilo de la letra sea normal (puede seleccionarse en negritas)*/
  	line-height: .9em;/*nos va a decir que tan pegadas estan las lineas unas de las otras */
 }
+
 h2{
 	font-size: 0.75em;
 	margin: -5 0 0; /*-5 en vez de aumentar reduce (parte superior, derecha e izquierda y parte de abajo)*/
 	font-weight: normal;
-
 }
+
 img{
 	max-width: 100%; /*sirve para que se adapte al 100% al tamaño donde esten (en el div) (se haga mas chiquita o mas grande dependiendo el caso)*/
 }
@@ -44,6 +47,7 @@ img{
 	padding: 0;
 	list-style: none; /*quita los puntitos de la lista (no le vamos a dar ningun estilo)*/
 }
+
 #gallery li{
 	float: left; /*asi podemos tener texto a la izquierda de nuestra imagen (o derecha)*/
 	width: 45%; /*con esto vamos a hacer que divida a la mitad el numero de elementos (por eso 50%)*/
@@ -51,6 +55,7 @@ img{
     background-color: #f5f5f5; /*cambia el colo del margen de la imagen a gris */
     color: #bdc3c7;
 } 
+
 #gallery li a p{ /* accedemos a la etiqueta gallery a los elementos de las listas a los links a los parrafos*/
 	margin: 0;
 	padding: 5%; 	/*le damos un espacio a las letras */
@@ -58,6 +63,7 @@ img{
 	color: #bdc3c7
 
 }
+
 /*contacto*/
 .contact{
 	list-style: none;
@@ -65,15 +71,19 @@ img{
 	padding:0;
 	font-size:0.9em;
 }
+
 .contact li.phone a{
 	background-image: url('../img/phone.png');
 }
+
 .contact li.email a{
 	background-image: url('../img/mail.png');
 }
+
 .contact li.twitter a{
 	background-image: url('../img/twitter.png');
 }
+
 .contact a{
 	display: block;
 	min-height: 20px;
@@ -82,28 +92,33 @@ img{
 	background-repeat: no-repeat;/*para que no se repita el fondo*/
 	background-size: 20px 20px;
 }
-/** navigation **/
 
+/** navigation **/
 nav{
 	text-align: center; /*alinea el texto al centro*/
 	padding: 10px 0;
 	margin: 20px 0 0;
 }
+
 nav ul { /*agregar estilo a la lista */
 	list-style: none; /*quita los puntitos*/
 	margin: 0 0;
 	padding: 0;
 }
+
 nav li {
 	display: inline-block;/*pone los elementos de la lista en forma corrida */
 }
+
 nav a{
 	font-weight: 800; /*intensidad de la fuente */
 	padding: 15px 10px;
 }
+
 nav a:hover{
 	background:#80ccff;
 }
+
 /**footer**/
 footer{
 	font-size: 0.75em;
@@ -112,6 +127,7 @@ footer{
 	color: #ccc;
 	clear:both;/*sirve para que no tenga elementos a la izquierda o a la derecha (darle su espacio propio al footer)*/
 }
+
 .social-icon{
 	width: 20px;
 	height: 20px;
@@ -123,16 +139,20 @@ header{
 	background: #80ccff;
 	border-color: #33adff;
 }
+
 /*texto del logo*/
 h1, h2{
 	color: #fff;
 }
+
 nav{
 	background: #33adff;
 }
+
 nav a, nav a:visited{
 	color:  #fff;
 }
+
 /*barra nav */
 nav a.selected, a:hover { /*el . es para indicar que hay una clase, hover significa que el mouse esta pasando por encima  */
  	color: #008ae6; 

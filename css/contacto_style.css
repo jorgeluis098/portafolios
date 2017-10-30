@@ -12,7 +12,7 @@ a{
 }
 header{
 	float:left;
-	margin: 0 0 30px 0;
+	margin: -20px 0 30px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
 }
@@ -37,124 +37,6 @@ h2{
 img{
 	max-width: 100%; /*sirve para que se adapte al 100% al tamaño donde esten (en el div) (se haga mas chiquita o mas grande dependiendo el caso)*/
 }
-/** niveles de conocimiento**/
-.porcentajes1{
-	color:black;
-	position: absolute;
-	margin-left: 36%;
-	opacity: .3;
-}
-.porcentajes2{
-	color:black;
-	position: absolute;
-	margin-left: 38%;
-	opacity: .3;
-}
-.porcentajes3{
-	color:black;
-	position: absolute;
-	margin-left: 32%;
-	opacity: .3;
-}
-.porcentajes4{
-	color:black;
-	position: absolute;
-	margin-left: 42%;
-	opacity: .3;
-}
-.porcentajes5{
-	color:black;
-	position: absolute;
-	margin-left: 36%;
-	opacity: .3;
-}
-.nivel1{ /*muestra el porcentaje de conocimiento del lenguaje*/
-	float :left;
-	width:40%;
-	margin:2.5%;
-	color: white;
-	border-style: solid;
-	border-color: black;
-	margin-bottom: 25px;
-	position: relative;
-	border-radius:5px; 
-}
-
-
-.nivel2{ /*muestra el porcentaje de conocimiento del lenguaje*/
-	float :left;
-	width:40%;
-	margin:2.5%;
-	margin-top: 0;
-	color: white;
-	border-style: solid;
-	border-color: black;
-	margin-bottom: 25px;
-	position: relative;
-	border-radius:5px;
-}
-.nivel3{ /*muestra el porcentaje de conocimiento del lenguaje*/
-	float :left;
-	width:40%;
-	margin:2.5%;
-	margin-top: 0;
-	color: white;
-	border-style: solid;
-	border-color: black;
-	margin-bottom: 25px;
-	position: relative;
-	border-radius:5px;
-}
-.nivel4{ /*muestra el porcentaje de conocimiento del lenguaje*/
-	float :left;
-	width:40%;
-	margin:2.5%;
-	margin-top: 0;
-	color: white;
-	border-style: solid;
-	border-color: black;
-	margin-bottom: 25px;
-	position: relative;
-	border-radius:5px;
-}
-.nivel5{ /*muestra el porcentaje de conocimiento del lenguaje*/
-	float :left;
-	width:40%;
-	margin:2.5%;
-	margin-top: 0;
-	color: white;
-	border-style: solid;
-	border-color: black;
-	margin-bottom: 25px;
-	position: relative;
-	border-radius:5px;
-}
-#niv1{
-	background:  #80ccff;
-	width: 30%;
-	margin: 0px;
-}	
-
-#niv2{
-	background:  #80ccff;
-	width: 20%;
-	margin: 0px;
-}
-#niv3{
-	background:  #80ccff;
-	width: 40%;
-	margin: 0px;
-}
-#niv4{
-	background:  #80ccff;
-	width: 60%;
-	margin: 0px;
-}
-#niv5{
-	background:  #80ccff;
-	width: 20%;
-	margin: 0px;
-}
 
 /**pagina: portafolio**/
 #gallery{
@@ -168,7 +50,6 @@ img{
     margin: 2.5%; /*espacio entre las imagenes 2.5 a la izq y 2.5 a la derecha*/
     background-color: #f5f5f5; /*cambia el colo del margen de la imagen a gris */
     color: #bdc3c7;
-
 } 
 #gallery li a p{ /* accedemos a la etiqueta gallery a los elementos de las listas a los links a los parrafos*/
 	margin: 0;
@@ -177,7 +58,30 @@ img{
 	color: #bdc3c7
 
 }
-
+/*contacto*/
+.contact{
+	list-style: none;
+	margin: 0;
+	padding:0;
+	font-size:0.9em;
+}
+.contact li.phone a{
+	background-image: url('../img/phone.png');
+}
+.contact li.email a{
+	background-image: url('../img/mail.png');
+}
+.contact li.twitter a{
+	background-image: url('../img/twitter.png');
+}
+.contact a{
+	display: block;
+	min-height: 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+	background-repeat: no-repeat;/*para que no se repita el fondo*/
+	background-size: 20px 20px;
+}
 /** navigation **/
 
 nav{

@@ -7,7 +7,7 @@
      <meta charset="utf-8"> <!--sirve para utilizar los idiomas--> 
 	<link rel="stylesheet" href="css/normalize.css"> <!--normalize sirve para hacer compatible la pagina con otros navegadores-->
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"> <!-- es nuestra fuente -->
-	<link rel="stylesheet" href="css/principal_style.css"> <!-- da los estilos a la pagina en un doc css -->
+	<link rel="stylesheet" href="css/contacto_style.css"> <!-- da los estilos a la pagina en un doc css -->
 	<!--style para agregar css-->
 	</head> 
 
@@ -19,44 +19,26 @@
 		</a>
 		<nav> <!--crea una barra de navegacion-->
 			<ul> <!--asi se crean las listas--> 
-				<li> <a href="principal.html" class="selected"> portafolio</a> </li><!--elementos de la lista, class es como el id pero para varios elem.--> 
+				<li> <a href="principal.html" > portafolio</a> </li><!--elementos de la lista, class es como el id pero para varios elem.--> 
 				<li> <a href="acerca.html"> Acerca de</a>  </li>
-				<li> <a href="contacto.html"> Contacto</a> </li>
+				<li> <a href="contacto.html" class="selected"> Contacto</a> </li>
 
 			</ul>
 		</nav>
 		</header>
 		<div id="wrapper"> <!--div es un bloque de codigo e id es como un link wrapper puede ser cualquier otra palabra-->
-			<section> <!--representa la seccion principal de la pagina--> 
-				<ul id="gallery">
-					<li>
-						<a href="img/fi.png"> <!--para que nos muestre la imagen grandota cuando le damos clik--> 
-						<img src="img/fi.png" alt="jorge" > <!--asi se insertan las imagenes//no se para que sirve alt--> 
-						<p>Jorge Ramos</p>
-						</a>
-					</li>
-
-					<div class="nivel1">					
-					<p id="niv1">html<span class="porcentajes1"> 30%</span></p>
-					</div>
-
- 					<div class="nivel2">					
-					<p id="niv2">css<span class="porcentajes2"> 20%</span></p>
-					</div>
-
- 					<div class="nivel3">					
-					<p id="niv3">python<span class="porcentajes3"> 40%</span></p>
-					</div>
-
-					<div class="nivel4">					
-					<p id="niv4">c<span class="porcentajes4"> 60%</span></p>
-					</div>
-
-					<div class="nivel5">					
-					<p id="niv5">java<span class="porcentajes5"> 20%</span></p>
-					</div>					
-				</ul> 
+			<section id="primary"> <!--representa la seccion principal de la pagina-->
+				<h3>informacion de contacto</h3> 
+				<p>si deseas contactarme para obtener mas informacion puedes acceder a cualquiera de las siguientes opciones</p>
 			</section> 
+			<section id="secondary">
+				<h3>detalles de contacto</h3>
+				<ul class="contact">
+					<li class="phone"><a href="tel:5525710336">5525710336</a></li>
+					<li class="email"><a href="mailto:jorge.luis.rb.98@gmail.com">jorge.luis.rb.98@gmail.com</a></li>
+					<li class="twitter"><a href="https://twitter.com/intent/tweet?screen_name:jorgeramghost">@jorgeramghost</a></li>
+				</ul>
+			</section>
 		</div>
 		<footer> <!--parte de inferior de la pagina-->
 		<a href="https://twitter.com/jorgeramghost" target="_blank"> <img src="img/twitter-wrap.png" alt="twitter-logo" class="social-icon"> </a>
